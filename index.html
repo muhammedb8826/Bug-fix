@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form
+          action="https://formspree.io/f/xzbqzgww"
+          class="info-form"
+          method="post"
+          id="form"
+        >
+          <label for="your-name" hidden>What's your name</label>
+          <input
+            type="text"
+            placeholder="Yeremias"
+            required
+            id="your-name"
+            class="input-text"
+            maxlength="30"
+          />
+          <label for="email" hidden>what's your email</label>
+          <input
+            type="email"
+            placeholder="natajayanj14@gmail.com"
+            id="email"
+            class="input-text"
+            required
+          />
+          <label for="form-text-area" hidden>what's your message</label>
+          <textarea
+            name="form-description"
+            id="form-text-area"
+            cols="30"
+            rows="8"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <div id="errorTxt">Please use lowercase letters only for a valid email address!</div>
+          <button class="form-button" type="submit" id="submitBtn">Get in Touch</button>
+        </form>
+</body>
+</html>
